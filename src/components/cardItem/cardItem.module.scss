@@ -1,0 +1,56 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.name {
+  font-size: 16px;
+  color: #06369a;
+}
+
+.time {
+  color: grey;
+}
+
+.content {
+  font-size: 20px;
+  color: black;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.subtitle {
+  color: lighten(black, 20%);
+  font-size: 14px;
+}
+
+.time {
+  color: lighten(black, 30%);
+  font-size: 14px;
+}

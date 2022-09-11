@@ -1,0 +1,14 @@
+.button {
+  display: block;
+  padding: 5px 25px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: #06369a;
+  outline: none;
+  cursor: pointer;
+  transition: background-color .2s linear;
+  &:hover {
+    background-color: lighten(#06369a, 10%);
+  }
+}
